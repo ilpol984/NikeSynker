@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.convert;
+package com.ingsala.tcx2nikeplus.convert;
 
 
 import com.garmin.xmlschemas.trainingcenterdatabase.v2.ActivityT;

@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.garmin;
+package com.ingsala.tcx2nikeplus.garmin;
 
 import com.google.common.base.Preconditions;
 import org.w3c.dom.Document;

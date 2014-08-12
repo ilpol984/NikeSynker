@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.nike;
+package com.ingsala.tcx2nikeplus.nike;
 
 import com.google.common.base.Preconditions;
 import org.w3c.dom.Document;

@@ -1,7 +1,8 @@
-package com.awsmithson.tcx2nikeplus.http;
+package com.ingsala.tcx2nikeplus.http;
 
-import com.awsmithson.tcx2nikeplus.garmin.GarminDataType;
-import com.awsmithson.tcx2nikeplus.util.Log;
+import com.ingsala.tcx2nikeplus.garmin.GarminDataType;
+import com.ingsala.tcx2nikeplus.util.Log;
+
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.w3c.dom.Document;
@@ -10,6 +11,7 @@ import org.xml.sax.SAXException;
 import javax.annotation.Nonnull;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 

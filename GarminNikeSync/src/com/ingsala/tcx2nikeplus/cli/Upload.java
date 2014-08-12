@@ -1,11 +1,13 @@
-package com.awsmithson.tcx2nikeplus.cli;
+package com.ingsala.tcx2nikeplus.cli;
 
-import com.awsmithson.tcx2nikeplus.http.NikePlus;
-import com.awsmithson.tcx2nikeplus.nike.NikeActivityData;
+import com.ingsala.tcx2nikeplus.http.NikePlus;
+import com.ingsala.tcx2nikeplus.nike.NikeActivityData;
+
 import org.w3c.dom.Document;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+
 import java.io.File;
 
 

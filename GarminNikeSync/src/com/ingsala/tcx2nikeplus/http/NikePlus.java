@@ -1,14 +1,15 @@
-package com.awsmithson.tcx2nikeplus.http;
+package com.ingsala.tcx2nikeplus.http;
 
-import com.awsmithson.tcx2nikeplus.jaxb.JAXBObject;
-import com.awsmithson.tcx2nikeplus.nike.NikeActivityData;
-import com.awsmithson.tcx2nikeplus.util.Log;
-import com.awsmithson.tcx2nikeplus.util.Util;
 import com.google.common.base.Preconditions;
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
+import com.ingsala.tcx2nikeplus.jaxb.JAXBObject;
+import com.ingsala.tcx2nikeplus.nike.NikeActivityData;
+import com.ingsala.tcx2nikeplus.util.Log;
+import com.ingsala.tcx2nikeplus.util.Util;
 import com.topografix.gpx._1._1.GpxType;
 import com.topografix.gpx._1._1.ObjectFactory;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
 import org.apache.http.NameValuePair;
@@ -35,6 +36,7 @@ import javax.annotation.Nonnull;
 import javax.xml.bind.JAXBException;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

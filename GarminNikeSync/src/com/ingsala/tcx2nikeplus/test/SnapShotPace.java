@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.test;
+package com.ingsala.tcx2nikeplus.test;
 
 import java.io.File;
 import javax.xml.parsers.DocumentBuilder;

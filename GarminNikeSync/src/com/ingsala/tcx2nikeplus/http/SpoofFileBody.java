@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.http;
+package com.ingsala.tcx2nikeplus.http;
 
 import java.io.UnsupportedEncodingException;
 

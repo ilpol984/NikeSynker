@@ -1,10 +1,11 @@
-package com.awsmithson.tcx2nikeplus.garmin;
+package com.ingsala.tcx2nikeplus.garmin;
 
 
-import com.awsmithson.tcx2nikeplus.jaxb.JAXBObject;
-import com.awsmithson.tcx2nikeplus.util.Log;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableList;
+import com.ingsala.tcx2nikeplus.jaxb.JAXBObject;
+import com.ingsala.tcx2nikeplus.util.Log;
+
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -16,6 +17,7 @@ import org.apache.http.util.EntityUtils;
 
 import javax.annotation.Nonnull;
 import javax.xml.bind.JAXBException;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;

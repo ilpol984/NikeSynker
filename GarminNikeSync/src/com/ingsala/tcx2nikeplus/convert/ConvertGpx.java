@@ -1,10 +1,13 @@
-package com.awsmithson.tcx2nikeplus.convert;
+package com.ingsala.tcx2nikeplus.convert;
 
-import com.awsmithson.tcx2nikeplus.util.Log;
-import com.awsmithson.tcx2nikeplus.util.Util;
+import com.ingsala.tcx2nikeplus.util.Log;
+import com.ingsala.tcx2nikeplus.util.Util;
+
 import java.io.File;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;

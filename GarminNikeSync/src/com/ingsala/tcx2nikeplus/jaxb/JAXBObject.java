@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.jaxb;
+package com.ingsala.tcx2nikeplus.jaxb;
 
 import com.garmin.xmlschemas.trainingcenterdatabase.v2.TrainingCenterDatabaseT;
 import com.google.common.base.Preconditions;

@@ -1,23 +1,23 @@
 package com.ingsala.GarminNikeSyncronize;
 
-import com.awsmithson.tcx2nikeplus.convert.ConvertGpx;
-import com.awsmithson.tcx2nikeplus.convert.ConvertTcx;
-import com.awsmithson.tcx2nikeplus.garmin.GarminActivityData;
-import com.awsmithson.tcx2nikeplus.garmin.GarminDataType;
-import com.awsmithson.tcx2nikeplus.http.Garmin;
-import com.awsmithson.tcx2nikeplus.http.NikePlus;
-import com.awsmithson.tcx2nikeplus.nike.NikeActivityData;
-import com.awsmithson.tcx2nikeplus.util.Log;
-import com.awsmithson.tcx2nikeplus.util.Util;
 import com.google.common.collect.Lists;
 import com.google.gson.JsonObject;
+import com.ingsala.tcx2nikeplus.convert.ConvertGpx;
+import com.ingsala.tcx2nikeplus.convert.ConvertTcx;
+import com.ingsala.tcx2nikeplus.garmin.GarminActivityData;
+import com.ingsala.tcx2nikeplus.garmin.GarminDataType;
+import com.ingsala.tcx2nikeplus.http.Garmin;
+import com.ingsala.tcx2nikeplus.http.NikePlus;
+import com.ingsala.tcx2nikeplus.nike.NikeActivityData;
+import com.ingsala.tcx2nikeplus.util.Log;
+import com.ingsala.tcx2nikeplus.util.Util;
+
 import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.disk.DiskFileItem;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.w3c.dom.Document;
-
 
 import java.io.File;
 import java.io.IOException;

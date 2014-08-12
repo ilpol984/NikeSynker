@@ -1,7 +1,8 @@
-package com.awsmithson.tcx2nikeplus.convert;
+package com.ingsala.tcx2nikeplus.convert;
 
-import com.awsmithson.tcx2nikeplus.util.Log;
-import com.awsmithson.tcx2nikeplus.util.Util;
+import com.ingsala.tcx2nikeplus.util.Log;
+import com.ingsala.tcx2nikeplus.util.Util;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -12,10 +13,12 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.TimeZone;
 import java.util.logging.Level;
+
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+
 import org.apache.commons.math.ArgumentOutsideDomainException;
 import org.apache.commons.math.MathException;
 import org.apache.commons.math.analysis.interpolation.SplineInterpolator;

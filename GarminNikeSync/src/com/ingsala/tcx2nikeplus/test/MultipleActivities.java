@@ -1,8 +1,8 @@
-package com.awsmithson.tcx2nikeplus.test;
+package com.ingsala.tcx2nikeplus.test;
 
-import com.awsmithson.tcx2nikeplus.convert.ConvertTcx;
-import com.awsmithson.tcx2nikeplus.util.Log;
-import com.awsmithson.tcx2nikeplus.util.Util;
+import com.ingsala.tcx2nikeplus.convert.ConvertTcx;
+import com.ingsala.tcx2nikeplus.util.Log;
+import com.ingsala.tcx2nikeplus.util.Util;
 
 import org.w3c.dom.Document;
 

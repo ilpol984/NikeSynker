@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus;
+package com.ingsala.tcx2nikeplus;
 
 /**
  *

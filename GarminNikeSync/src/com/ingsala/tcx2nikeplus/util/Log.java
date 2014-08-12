@@ -1,4 +1,4 @@
-package com.awsmithson.tcx2nikeplus.util;
+package com.ingsala.tcx2nikeplus.util;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
